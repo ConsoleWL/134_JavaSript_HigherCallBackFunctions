@@ -304,20 +304,30 @@ let dishes = [
 //9. Create a function that will return an array of strings, with the cuisine type appended to the start of the dish's name. Ie, ["Italian Pizza", "Italian Spaghetti", ...]
 //Map 
 
-function numberNine(arrayOfDishes){
-    let results = arrayOfDishes.map(function(f){
-        return f.cuisine + " " + f.name;
-    })
-    return results;
-}
+// function numberNine(arrayOfDishes){
+//     let results = arrayOfDishes.map(function(f){
+//         return f.cuisine + " " + f.name;
+//     })
+//     return results;
+// }
 
-let numberNineResults = numberNine(dishes);
-console.log(numberNineResults);
-
-
-//10. Create a function that will use advanced array methods on the 'dishes' array and return the result ["Vegetarian Lasagna", "Vegetarian Falafel", "Vegetarian Chili"]
+// let numberNineResults = numberNine(dishes);
+// console.log(numberNineResults);
 
 
+//10. Create a function that will use advanced array methods on the 'dishes' array and return the 
+//result ["Vegetarian Lasagna", "Vegetarian Falafel", "Vegetarian Chili"]
+
+
+// function numberTen(array){
+//     let results = array.map(function(f){
+//         return f.cuisine + " " + f.name;
+//     })
+//     return results;
+// }
+
+// let resultsNumberTen = numberTen(dishes);
+// console.log(resultsNumberTen);
 
 
 
@@ -325,11 +335,51 @@ console.log(numberNineResults);
 
 //8b. Use the filter method to eliminate duplicate from problem 8a.
 
+// function bonusEght(arrayOfDishes){
+//     let results = arrayOfDishes.map(function(f){
+//         return f.cuisine;
+//     })
+//     return results;
+// }
+
+// let resultsBonusEght = bonusEght(dishes);
+//     // woulve nice to know how it's written withour lymda expression;
+// function removeDuplicates(arr){
+//     return arr.filter((item, index) =>
+//     arr.indexOf(item) === index);
+// }
+
+// console.log(removeDuplicates(resultsBonusEght));
+
+
 //11. Create a function that will return dishes whose ingredients array INCLUDES "tomato" OR "cheese".
 //Hint: You do not want to check the array's indexes to find out what the array INCLUDES.
 //Filter
 
+    // function numberEleven(arrayOfObjects){
+    //     let results = arrayOfObjects.filter(function(f){
+    //         if(f.ingredients.includes("tomato") || f.ingredients.includes("cheese")){
+    //             return true;
+    //         } else{
+    //             return false;
+    //         }})
+
+    //         return results;
+    // }
+
+    // let resultsnumberEleven = numberEleven(dishes);
+    // console.log(resultsnumberEleven);
+
 //12. Create a function that will return the total serving count of all dishes.
 //Must use Reduce, not a loop.
+
+let dishes2 = [
+    {
+        "id": 1,
+        "name": "Pizza",
+        "cuisine": "Italian",
+        "servings": 8,
+        "ingredients": ["tomato", "cheese"]
+    }]
 
 //13. Create a function that will return an array of any objects that do not share a cuisine type with any other objects.
