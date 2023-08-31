@@ -177,7 +177,7 @@ let dishes = [
 // }
 
 // let matchesCusineResults = matchesCuisine();
-// console.log("Matcheing cuisine", matchesCusineResults);
+// console.log("Matching cuisine", matchesCusineResults);
 
 //3. Create a function that will return all dishes with the cuisine type of "Italian" and a serving size greater than 5.
 //Filter
@@ -312,7 +312,7 @@ let dishes = [
 // }
 
 // let numberNineResults = numberNine(dishes);
-// console.log(numberNineResults);
+// console.log("array of strings, with the cuisine type appended to the start of the dish's name", numberNineResults);
 
 
 //10. Create a function that will use advanced array methods on the 'dishes' array and return the 
@@ -327,7 +327,7 @@ let dishes = [
 // }
 
 // let resultsNumberTen = numberTen(dishes);
-// console.log(resultsNumberTen);
+// console.log("advanced array methods on the 'dishes'",resultsNumberTen);
 
 
 
@@ -349,7 +349,7 @@ let dishes = [
 //     arr.indexOf(item) === index);
 // }
 
-// console.log(removeDuplicates(resultsBonusEght));
+// console.log("filter method to eliminate duplicate from problem 8a.", removeDuplicates(resultsBonusEght));
 
 
 //11. Create a function that will return dishes whose ingredients array INCLUDES "tomato" OR "cheese".
@@ -368,18 +368,27 @@ let dishes = [
     // }
 
     // let resultsnumberEleven = numberEleven(dishes);
-    // console.log(resultsnumberEleven);
+    // console.log("dishes whose ingredients array INCLUDES tomato OR cheese.",resultsnumberEleven);
 
 //12. Create a function that will return the total serving count of all dishes.
 //Must use Reduce, not a loop.
 
-let dishes2 = [
-    {
-        "id": 1,
-        "name": "Pizza",
-        "cuisine": "Italian",
-        "servings": 8,
-        "ingredients": ["tomato", "cheese"]
-    }]
+// for some reason doesn't work;
+    // function numberTwelve(arr){
+    //     let result = arr.reduce(function(total, callories){
+    //         return total + callories.servings;
+    //     })
+    //     return result;
+    // }
 
-//13. Create a function that will return an array of any objects that do not share a cuisine type with any other objects.
+    // let resultNumberTwelve = numberTwelve(dishes);
+    // console.log("total serving count of all dishes.",resultNumberTwelve);
+
+
+//13. Create a function that will return an array of any objects that do not share a cuisine 
+//type with any other objects.
+
+// too hard
+// function numberThirteen(arr){
+//     let = result = 
+// }
